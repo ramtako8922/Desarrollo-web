@@ -1,0 +1,157 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background: #02010a;
+}
+img{
+  box-shadow: 2px 2px  2px 2px #02010a;
+  -webkit-box-shadow: 2px 2px  2px 2px #02010a;
+}
+@media screen {
+  #contenido{
+    width: 100%;
+
+  }
+  header {
+    background:#5b7989;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    animation: entrada 2s;
+  }
+  @keyframes entrada {
+  0%{
+  margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+  }
+  h1{
+    color: white;
+    text-shadow: 2px 2px 2px #02010a;
+    -webkit-text-shadow: 2px 2px 2px #02010a;
+  }
+   .menu a{
+    color: white;
+    font-size: 1.5em;
+  }
+  .m:visited{
+    text-decoration: none;
+  }
+  .
+  div.menu>.enlace>a{
+    margin-right: 10px;
+}
+
+.menu{
+  display: flex;
+  width:200px;
+  justify-content:space-around;
+}
+div.secundaria {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: #d5c75f;
+justify-content:space-around;
+align-content: space-around;
+}
+
+div.secundaria>.elemento>img{
+width:400px;
+margin-top: 15px;
+}
+.retrato{
+  filter: blur(10px);
+}
+.paisaje2, .retrato4, .retrato6{
+  filter:grayscale(100%);
+
+}
+.retrato3{
+  filter:sepia(90%);
+}
+div.pie{
+  background:#C6d5c5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+}
+ @media(max-width:420px) {
+      #contenido{
+      width: 100%;
+}
+      header{
+        background:#5b7989;
+        border-radius: 10px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-content:center;
+        width: auto;
+        animation: entrada 2s;
+      }
+      @keyframes entrada {
+      0%{
+      margin-top: 150%;
+      }
+      60%{
+        margin-top: -5%;
+      }
+      100%{
+        margin-top: 0%;
+      }
+      }
+      h1{
+        color: white;
+        text-shadow: 2px 2px 2px #02010a;
+        -webkit-text-shadow: 2px 2px 2px #02010a;
+      }
+       .menu a{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.5em;
+        justify-content: space-between;
+        flex-grow: 1;
+      }
+
+
+
+      div.secundaria {
+      display: flex;
+      flex-direction: row;
+      background: #d5c75f;
+      align-content: center;
+      }
+
+
+      div.secundaria>.elemento>img {
+      margin top: 15px;
+      width: 200px;
+      height: 150px;
+      }
+      div.secundaria>p>a {
+      color: black;
+      }
+      div.pie{
+
+        background:#C6d5c5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+  }
+  .redes{
+    width: 500px;
+  }
+  }
