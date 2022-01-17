@@ -1,2 +1,2 @@
 # Desarrollo-web
-pagina web básica en html
+Mini proyectos con manejo de HTML, CSS y JavaScript
